@@ -44,11 +44,11 @@ $browser = $result->device->family.'-'.$result->ua->family;
 
 //必须信息
 //高德key
-$gd_key = '填这里或删除';
-$gd_Secret_key ="这里或删除";
+$gd_key = '';
+$gd_Secret_key ="";
 //腾讯key
-$tx_key = '填这里或删除';
-$tx_Secret_key ="填这里或删除";
+$tx_key = '';
+$tx_Secret_key ="";
 
 
 //高德api
@@ -212,7 +212,6 @@ imagettftext($im, 16, 0, 10, 72, $red, $font, '今天是'.date('Y年n月j日').'
 imagettftext($im, 16, 0, 10, 104, $red, $font,'您的IP是:'.$ip.'');
 //ip
 imagettftext($im, 16, 0, 10, 140, $red, $font,'您使用的是'.$os.'操作系统');
-imagettftext($im, 16, 0, 10, 175, $red, $font,'欢迎您访问王先生笔记');
 imagettftext($im, 13, 0, 10, 200, $black, $font,$get);
 ImageGif($im);
 ImageDestroy($im);
