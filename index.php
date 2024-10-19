@@ -44,11 +44,11 @@ $browser = $result->device->family.'-'.$result->ua->family;
 
 //必须信息
 //高德key
-$gd_key = '';
-$gd_Secret_key ="";
+$gd_key = 'f80829927c887932b780ccf933ee8326';
+$gd_Secret_key ="f80829927c887932b780ccf933ee8326";
 //腾讯key
-$tx_key = '';
-$tx_Secret_key ="";
+$tx_key = 'EM5BZ-BTAKZ-NEGXD-7JXQ4-SDJUZ-O2B6V';
+$tx_Secret_key ="RtFKvYzBMNNPHutQseF5ne5LAutiCp6o";
 
 
 //高德api
